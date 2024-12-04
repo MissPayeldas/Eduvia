@@ -1,0 +1,445 @@
+/* Centering the image */
+.image-container {
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 2px; /* Optional: adds margin on top */
+    position: relative; /* Enables positioning for the logo */
+}
+
+/* Resizing the image */
+.image-container img {
+    width: 1700px; /* Set desired width */
+    height: 300px; /* Maintains aspect ratio */
+    max-width: 100%; /* Makes image responsive */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #0b7f9c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #51a9ce;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3084de;
+}
+
+footer {
+    background-color: #51a9ce ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*----------------------------about--------------------------------------------*/
+/* Main Section Styles */
+.intro-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 20px 0; /* Space around the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.intro-section h2 {
+    color: #007bff; /* Blue color for the heading */
+}
+
+.intro-section p {
+    font-size: 18px; /* Increase font size for better readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button Styles */
+.cta-button {
+    display: inline-block;
+    margin: 10px 5px; /* Space between buttons */
+    padding: 15px 30px; /* Padding for the button */
+    background-color: #28a745; /* Green button color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Font size for the button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the button */
+}
+
+.cta-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0; /* Space around the section */
+    background-color: #ffffff; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.about-section h3 {
+    color: #007bff; /* Blue color for the heading */
+}
+
+.about-section p {
+    font-size: 16px; /* Font size for paragraph */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+
+/*---------------------------syllabus------------------------------------------------------------*/
+#semesters {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;            /* Space around the section */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 2px auto;       /* Center the section */
+    max-width: 1700px;        /* Limit width for better readability */
+    height: 800px;
+}
+
+#semesters h2 {
+    text-align: center;      /* Center the header text */
+    color: #333;             /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;     /* Space below the header */
+}
+
+#semesters ul {
+    list-style-type: none;   /* Remove default list styling */
+    padding: 0;              /* Remove default padding */
+}
+
+#semesters li {
+    margin: 10px 0;         /* Space between list items */
+}
+
+#semesters a {
+    text-decoration: none;    /* Remove underline from links */
+    color: #007BFF;          /* Blue color for links */
+    font-weight: bold;       /* Bold font for emphasis */
+    padding: 10px;           /* Padding around the link */
+    border-radius: 4px;      /* Rounded corners for links */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semesters a:hover {
+    background-color: #e2e6ea; /* Light gray background on hover */
+    color: #0056b3;            /* Darker blue on hover */
+}
+
+
+/*------------sem1-------------------------------------------------*/
+#semester1 {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;        /* Center the section */
+    max-width: 600px;         /* Limit width for better readability */
+}
+
+#semester1 h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+#semester1 ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+#semester1 li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semester1 li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+
+}
+
+/*-------------------------------------sem2--------------------------------------*/
+#semester2 {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;        /* Center the section */
+    max-width: 600px;         /* Limit width for better readability */
+}
+
+#semester2 h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+#semester2 ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+#semester2 li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semester2 li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+}
+/*-----------------------sem3------------------------------------------------*/
+#semester3 {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;        /* Center the section */
+    max-width: 600px;         /* Limit width for better readability */
+}
+
+#semester3 h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+#semester3 ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+#semester3 li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semester3 li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+}
+/*-----------------------------------sem4-------------------------------------*/
+#semester4 {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;        /* Center the section */
+    max-width: 600px;         /* Limit width for better readability */
+}
+
+#semester4 h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+#semester4 ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+#semester4 li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semester4 li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+}
+
+/*---------------------------sem5----------------------------------------------*/
+#semester5 {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;        /* Center the section */
+    max-width: 600px;         /* Limit width for better readability */
+}
+
+#semester5 h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+#semester5 ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+#semester5 li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semester5 li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+}
+/*-----------------------------------sem6_------------------------------------------*/
+#semester6 {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;        /* Center the section */
+    max-width: 600px;         /* Limit width for better readability */
+}
+
+#semester6 h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+#semester6 ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+#semester6 li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+#semester6 li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+}
+/*-----------------------------notes css--------------------------------------------------------------*/
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0b7f9c;
+    color: white;
+    padding: 10px 0;
+    text-align:center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Container Styling */
+.semester-container , .unit-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Box Styling */
+.semester-box, .subject-box, .unit-box {
+    display: block;
+    width: 100px;
+    height: 70px;
+    background-color: #51a9ce;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    line-height: 100px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.semester-box:hover, .subject-box:hover, .unit-box:hover {
+    background-color: #0b7f9c;
+    cursor: pointer;
+}
+
+
+/*-------------------------------------------------------=--------------------------------------------------------------------------*/
