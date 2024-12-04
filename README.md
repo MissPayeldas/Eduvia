@@ -41,4 +41,5 @@ Backend: Python (Django Framework)
 Database: SQL
 
 Acknowledgments
+
 Eduvia is a collaborative project, with contributions from developers and learners dedicated to improving the e-learning experience.
