@@ -35,7 +35,9 @@ Ensure a seamless and secure user experience.
 Tech Stack
 
 Frontend: HTML5, CSS3
+
 Backend: Python (Django Framework)
+
 Database: SQL
 
 Acknowledgments
