@@ -55,7 +55,8 @@ function downloadDocument(subject) {
                 syllabusElement.style.display = "none"; // Hide the syllabus
             }
         }
-// login page
+
+        // login page
 document.getElementById("login-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -75,3 +76,4 @@ function validateEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
+
