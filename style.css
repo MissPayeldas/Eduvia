@@ -1,0 +1,340 @@
+/* Centering the image */
+.image-container {
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 2px; /* Optional: adds margin on top */
+    position: relative; /* Enables positioning for the logo */
+}
+
+/* Resizing the image */
+.image-container img {
+    width: 1700px; /* Set desired width */
+    height: 300px; /* Maintains aspect ratio */
+    max-width: 100%; /* Makes image responsive */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #80d6e5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #309db0;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: rgb(247, 234, 234);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3a5a7c;
+}
+
+footer {
+    background-color: #51a9ce ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*----------------------------about--------------------------------------------*/
+/* Main Section Styles */
+.intro-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 20px 0; /* Space around the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.intro-section h2 {
+    color: #007bff; /* Blue color for the heading */
+}
+
+.intro-section p {
+    font-size: 18px; /* Increase font size for better readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button Styles */
+.cta-button {
+    display: inline-block;
+    margin: 10px 5px; /* Space between buttons */
+    padding: 15px 30px; /* Padding for the button */
+    background-color: #28a745; /* Green button color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Font size for the button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the button */
+}
+
+.cta-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0; /* Space around the section */
+    background-color: #ffffff; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+.about-section h3 {
+    color: #007bff; /* Blue color for the heading */
+}
+
+.about-section p {
+    font-size: 16px; /* Font size for paragraph */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+
+/*---------------------------syllabus------------------------------------------------------------*/
+
+/*------------syll sem-------------------------------------------------*/
+/* General Styling for Semesters */
+.semester {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;             /* Space around the section */
+    border-radius: 8px;        /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 20px auto;         /* Center the section */
+    max-width: 600px;          /* Limit width for better readability */
+}
+
+.semester h3 {
+    text-align: center;       /* Center the header text */
+    color: #333;              /* Dark text color for contrast */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin-bottom: 15px;      /* Space below the header */
+}
+
+.semester ul {
+    list-style-type: none;    /* Remove default list styling */
+    padding: 0;               /* Remove default padding */
+}
+
+.semester li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    padding: 10px;             /* Padding inside list items */
+    margin: 5px 0;             /* Space between list items */
+    border-radius: 4px;        /* Rounded corners for list items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.semester li:hover {
+    background-color: #e2e6ea; /* Darker gray on hover */
+}
+
+/*-----------------------------notes-------------------------------------------------------------*/
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Section Styling */
+#semesters {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#semesters h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #4CAF50;
+}
+
+/* Semester Container Styling */
+.semester-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Semester Box Styling */
+.semester-box {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.semester-box:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .semester-box {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+
+/*-----------------------------notes sem -------------------------------------------------------------*/
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0b7f9c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Subject Container Styling */
+#subjects {
+    padding: 20px;
+}
+
+.subject-container {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subject-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b7f9c;
+}
+
+/* Unit Container Styling */
+.unit-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Unit Box Styling */
+.unit-box {
+    display: block;
+    width: 100px;
+    height: 70px;
+    background-color: #51a9ce;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.unit-box:hover {
+    background-color: #0b7f9c;
+    cursor: pointer;
+}
+
+/*---------------------------------------------Login----------=--------------------------------------------------------------------------*/
+
