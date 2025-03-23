@@ -1,3 +1,17 @@
+/* CSS for the logo positioning */
+.logo-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Ensures the logo stays on top */
+}
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
 /* Centering the image */
 .image-container {
     text-align: center; /* Centers the image horizontally */
@@ -7,8 +21,8 @@
 
 /* Resizing the image */
 .image-container img {
-    width: 1700px; /* Set desired width */
-    height: 300px; /* Maintains aspect ratio */
+    width: 1900px; /* Set desired width */
+    height: 440px; /* Maintains aspect ratio */
     max-width: 100%; /* Makes image responsive */
 }
 
@@ -35,6 +49,7 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    padding: 15px;
     justify-content: center;
     background-color: #309db0;
 }
@@ -46,6 +61,13 @@ nav ul li {
 nav ul li a {
     color: rgb(247, 234, 234);
     text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF50;
 }
 
 section {
@@ -335,6 +357,3 @@ h2 {
     background-color: #0b7f9c;
     cursor: pointer;
 }
-
-/*---------------------------------------------Login----------=--------------------------------------------------------------------------*/
-
